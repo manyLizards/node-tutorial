@@ -1,12 +1,13 @@
 //CommonJS, every file is module (by default)
 // Modules - encapsulated code (only share minimum)
-const secret = 'SUPER SECRET'
-const john = 'john'
-const peter = 'peter'
 
-const sayHi = (name) => {
-    console.log(`Hello there ${name}`)
-}
+//pull in variables from another module/file
+const names = require('./4-names');// the `./` at the beginning refers to the path to the module/file
+console.log(names);
+
+//pull in one function from another module/file
+const sayHi = require('./5-utils');
+
 
 sayHi('susan')
 sayHi(john)
