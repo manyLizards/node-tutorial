@@ -1,9 +1,13 @@
-const amount = 12
-if (amount<10){
-    console.log('small number');
-}
-else{
-    console.log('large number');
+//CommonJS, every file is module (by default)
+// Modules - encapsulated code (only share minimum)
+const secret = 'SUPER SECRET'
+const john = 'john'
+const peter = 'peter'
+
+const sayHi = (name) => {
+    console.log(`Hello there ${name}`)
 }
 
-console.log(`hey it's my first node app`)
+sayHi('susan')
+sayHi(john)
+sayHi(peter)
