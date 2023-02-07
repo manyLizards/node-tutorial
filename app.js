@@ -8,6 +8,8 @@ console.log(names);
 //pull in one function from another module/file
 const sayHi = require('./5-utils');
 
+//pull in function by calling it within the module and requiring the module
+require('./7-mind-grenade');
 
 sayHi('susan')
 sayHi(john)
