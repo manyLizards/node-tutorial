@@ -16,3 +16,5 @@ const currentOS = {
 }
 
 console.log(currentOS);
+
+//run node 8-os-module.js

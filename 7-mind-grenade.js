@@ -6,3 +6,5 @@ function addValues(){
 }
 
 addValues()
+
+//no need to export to app.js since we require the entire module

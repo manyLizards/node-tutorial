@@ -14,3 +14,5 @@ require('./7-mind-grenade');
 sayHi('susan')
 sayHi(john)
 sayHi(peter)
+
+//open in integrated terminal and run `node 3-app.js` or `node 3-app`

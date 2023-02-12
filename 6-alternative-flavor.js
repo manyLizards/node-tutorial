@@ -6,4 +6,5 @@ const person = {
     name: 'bob',
 }
 
+//exporting something and changing the variable name on the file we are exporting to
 module.exports.singlePerson = person
