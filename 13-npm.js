@@ -29,9 +29,12 @@ const _ = require('lodash')
 const items = [1, [2, [3, [4]]]]
 const newItems = _.flattenDeep(items)
 console.log(newItems)
+console.log("Hello World");
 
+//INSTALL LOCALLY
 // run 'npm i nodemon -D' or 'npm i nodemon --save-dev' to save nodemon as a devDependency rather than a simple dependency
 //we set it up as a devdependency because we don't need it for production, just while we're developing. This is where we'll add things like testing packages.
+// it will install the package locally to that specific file rather than globally to the whole project
 
 //in package.json under "scripts" is where you'll store commands for other developers to see, such as "start" and "dev".
 //For example, the syntax could look like
@@ -45,3 +48,10 @@ console.log(newItems)
 //To stop nodemon at any time, try ctl + c
 
 //to uninstall any package, run `npm uninstall [packageName]`
+
+//INSTALL GLOBALLY
+//for packages like create react app or gatsby you'll need to install them globally
+
+//uninstall nodemon
+//in terminal or integrated terminal, run `sudo npm install -g nodemon`
+//try running nodemon again with `nodemon 13-npm` in the terminal, and change the wording in the last console log to make sure it works
