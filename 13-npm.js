@@ -1,3 +1,4 @@
+// NPM = Node Package Manager
 //run any of these in the integrated terminal
 
 // `npm` - global command, comes with node
@@ -28,3 +29,19 @@ const _ = require('lodash')
 const items = [1, [2, [3, [4]]]]
 const newItems = _.flattenDeep(items)
 console.log(newItems)
+
+// run 'npm i nodemon -D' or 'npm i nodemon --save-dev' to save nodemon as a devDependency rather than a simple dependency
+//we set it up as a devdependency because we don't need it for production, just while we're developing. This is where we'll add things like testing packages.
+
+//in package.json under "scripts" is where you'll store commands for other developers to see, such as "start" and "dev".
+//For example, the syntax could look like
+//"start": "node 13-npm" to use this specific file
+//"dev": "nodemon 13-npm" to test this specific file
+//then you could go to the terminal and type 'npm run dev' and it would act the same as 'npm run nodemon 13-npm'
+
+//For the purposes of this assignment, check the scripts that are already in package.json to see what it is that you're running.
+//go ahead and run `npm start` to see how nodemon runs in your terminal
+//watch was happens as you change your code. Nodemon will check as you go, so you don't have to continuously run tests.
+//To stop nodemon at any time, try ctl + c
+
+//to uninstall any package, run `npm uninstall [packageName]`
