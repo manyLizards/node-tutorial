@@ -21,7 +21,7 @@
 // notice as well that it downloaded a new folder in your local repo called node_modules with another folder inside titled "lodash"
 // now try `npm i bootstrap`. Notice how node_modules now includes bootstrap, jquery, and popper.js. However, your package.json only includes bootstrap and lodash under dependencies since those are the installed packages.
 
-// if you are working with a github repository, create a file titled `.gitignore`. Inside your gitignore file, type `node_modules`, so that they don't get sent to your remote repository.
+// if you are working with a github repository, create a file titled `.gitignore` outside of all folders in the root of the project. Inside your gitignore file, type `node_modules`, so that they don't get sent to your remote repository.
 
 const _ = require('lodash')
 
