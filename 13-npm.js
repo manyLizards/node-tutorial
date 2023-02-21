@@ -53,5 +53,5 @@ console.log("Hello World");
 //for packages like create react app or gatsby you'll need to install them globally
 
 //uninstall nodemon
-//in terminal or integrated terminal, run `sudo npm install -g nodemon`
+//in terminal or integrated terminal, run `sudo npm install -g nodemon` or `npx nodemon`
 //try running nodemon again with `nodemon 13-npm` in the terminal, and change the wording in the last console log to make sure it works
